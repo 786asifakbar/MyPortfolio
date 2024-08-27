@@ -1,5 +1,4 @@
-// src/components/About.jsx
-import React from 'react';
+// src/components/About.js
 
 const About = () => {
   return (
