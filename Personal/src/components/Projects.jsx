@@ -20,7 +20,7 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className=" h-screen bg-gradient-to-r from-blue-900 to-gray-900 text-white py-20">
+    <section id="projects" className=" h-screen bg-gradient-to-l from-blue-900 to-gray-900 text-white py-20">
       <div className="container mx-auto">
         <h2 className="text-5xl font-bold text-center mb-10">Projects</h2>
         <div className="grid md:grid-cols-3 gap-10">

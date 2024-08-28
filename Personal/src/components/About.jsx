@@ -4,7 +4,7 @@ import DownloadIcon from '@mui/icons-material/Download';
 const About = () => {
   return (
     <> 
-    <div className="h-screen bg-gradient-to-r from-blue-900 to-gray-900 text-white p-10 md:flex md:items-center md:justify-between rounded-lg shadow-lg">
+    <div className="h-screen bg-gradient-to-l from-blue-900 to-gray-900 text-white p-10 md:flex md:items-center md:justify-between rounded-lg shadow-lg">
       <div className="md:flex md:items-center">
         <img
           src="../src/assets/about.png"
