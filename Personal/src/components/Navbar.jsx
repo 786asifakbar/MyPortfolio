@@ -6,7 +6,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import { Link, NavLink } from 'react-router-dom'; // Import Link from react-router-dom
+import { NavLink } from 'react-router-dom'; // Import Link from react-router-dom
 
 const Navbar = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <>
       {/* Navbar */}
-      <AppBar position="static" className="bg-gray-900">
+      <AppBar position="static" className="bg-gradient-to-t from-gray-800 to-blue-900">
         <Toolbar className="flex justify-between items-center">
           {/* Logo or Brand Name */}
           <Typography variant="h6" className="text-white">

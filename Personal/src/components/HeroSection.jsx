@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <> 
     <div
-      className="flex flex-col md:flex-row items-center justify-between p-8 md:p-16 bg-gray-800"
+      className="flex flex-col md:flex-row items-center justify-between p-8 md:p-16 bg-gradient-to-r from-gray-900 to-blue-900"
       // style={{ backgroundImage: 'url(https://via.placeholder.com/1500)', backgroundSize: 'cover', backgroundPosition: 'center' }}
     >
       {/* Left Side: Heading with Typing Effect and Buttons */}

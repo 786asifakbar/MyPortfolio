@@ -1,9 +1,10 @@
 // src/components/Contact.jsx
-import React from 'react';
+
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20">
+    <> 
+    <section id="contact" className="py-20 h-screen bg-gradient-to-r from-blue-900 to-gray-900 text-white">
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold text-center mb-10">Contact Me</h2>
         <form className="max-w-lg mx-auto">
@@ -19,10 +20,11 @@ const Contact = () => {
             <label className="block mb-2 text-sm">Message</label>
             <textarea className="w-full p-2 border rounded-lg" rows="5"></textarea>
           </div>
-          <button type="submit" className="bg-blue-500 text-white py-2 px-4 rounded-lg">Send</button>
+          <button type="submit" className="bg-blue-600 text-white py-2 px-4 rounded-lg">Send</button>
         </form>
       </div>
     </section>
+    </>
   );
 };
 
