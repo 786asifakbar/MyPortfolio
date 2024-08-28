@@ -1,4 +1,6 @@
-
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/HeroSection';
@@ -9,6 +11,20 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 // import ParticlesBackground from './ParticlesBackground';
 const App = () => {
+  
+  useEffect(() => {
+    AOS.init({
+      duration: 1200,
+      offset: 200,
+      easing: 'ease-in-up',
+      delay: 100,
+      once: true,
+    });
+  }, []);
+
+  
+  
+  
   return (
 <>     
       <Navbar />
