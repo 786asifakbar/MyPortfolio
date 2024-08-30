@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { AppBar, Toolbar, Typography, IconButton, List, ListItem, ListItemText, Drawer } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import FacebookIcon from '@mui/icons-material/Facebook';
+import GithubIcon from '@mui/icons-material/Github';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -50,8 +50,8 @@ const Navbar = () => {
 
           {/* Social Media Icons */}
           <div className="flex space-x-4">
-            <IconButton component="a" href="https://www.facebook.com" target="_blank" color="inherit">
-              <FacebookIcon />
+            <IconButton component="a" href="https://www.github.com" target="_blank" color="inherit">
+              <GithubIcon />
             </IconButton>
             <IconButton component="a" href="https://twitter.com" target="_blank" color="inherit">
               <TwitterIcon />
