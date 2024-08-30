@@ -7,9 +7,10 @@ const About = () => {
   return (
     <>
       <div 
-        className="min-h-screen bg-gradient-to-l from-blue-900 to-gray-900 text-white p-6 md:p-10 flex flex-col md:flex-row md:items-center md:justify-between"
-        data-aos="zoom-out"
-        data-aos-delay="200"
+        className="min-h-screen bg-gradient-to-l from-blue-900 to-gray-900 text-white p-6 md:p-10 
+        flex flex-col md:flex-row md:items-center md:justify-between"
+        // data-aos="zoom-out"
+        // data-aos-delay="200"
       >
         <div 
           className="flex flex-col md:flex-row md:items-center"

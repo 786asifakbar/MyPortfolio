@@ -1,11 +1,16 @@
 import { Button } from '@mui/material';
 import Typical from 'react-typical';
+import About from "./About"
+import Projects from "./Projects"
+import Contact from "./Contact"
+import Skills from "./Skills"
 
 const HeroSection = () => {
   return (
     <>
       <div
-        className="flex flex-col md:flex-row items-center justify-between p-8 md:p-16 bg-gradient-to-r from-gray-900 to-blue-900"
+        className="flex flex-col md:flex-row items-center justify-between p-8 md:p-16 
+        bg-gradient-to-r from-gray-900 to-blue-900"
         data-aos="zoom-out"
         data-aos-delay="200"
       >
@@ -63,6 +68,11 @@ const HeroSection = () => {
           />
         </div>
       </div>
+      
+    <About />
+    <Skills />
+    <Projects />
+    <Contact/>
     </>
   );
 };

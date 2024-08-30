@@ -69,7 +69,7 @@ const Navbar = () => {
       {/* Drawer for mobile view */}
       <Drawer anchor="left" open={drawerOpen} onClose={toggleDrawer}>
         <List className="w-64 p-4">
-          <ListItem button component={NavLink} to="/" onClick={toggleDrawer}>
+          <ListItem button component={NavLink} to="/" onmClick={toggleDrawer}>
             <ListItemText primary="Home" />
           </ListItem>
           <ListItem button component={NavLink} to="/about" onClick={toggleDrawer}>
@@ -86,5 +86,4 @@ const Navbar = () => {
     </>
   );
 };
-
 export default Navbar;
