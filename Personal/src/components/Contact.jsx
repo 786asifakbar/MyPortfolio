@@ -30,7 +30,7 @@ const Contact = () => {
             ></iframe>
           </div>
           <div className="text-center lg:text-left lg:ml-6">
-            <h3 className="text-2xl font-semibold mb-4">Get in Touch</h3>
+            <h3 className="text-5xl font-semibold mb-4">Get in Touch</h3>
             <p className="mb-2">
               <strong>Phone:</strong> (+92) 315-393-3660
             </p>
@@ -44,7 +44,7 @@ const Contact = () => {
         </div>
         {/* Contact Form */}
         <div className="lg:w-1/2" data-aos="fade-up">
-          <h2 className="text-4xl font-bold text-center mb-10">Contact Me</h2>
+          <h2 className="text-5xl font-bold text-center mb-10">Contact Me</h2>
           <form className="max-w-lg mx-auto">
             <div className="mb-4">
               <label className="block mb-2 text-sm">Name</label>

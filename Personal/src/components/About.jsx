@@ -26,7 +26,7 @@ const About = () => {
           />
           <div data-aos="fade-left" data-aos-delay="2500">
           
-            <h1 className="text-4xl md:text-7xl font-bold">About Me</h1>
+            <h1 className="text-5xl md:text-7xl font-bold">About Me</h1>
             <p className="text-sm md:text-md mt-4 md:mt-5">
               I am a passionate Frontend Developer specializing in React.js. With several years of experience,
               I have honed my skills in building responsive, user-friendly web applications. My expertise lies

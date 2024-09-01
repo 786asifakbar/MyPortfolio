@@ -50,7 +50,7 @@ const Navbar = () => {
 
           {/* Social Media Icons */}
           <div className="flex space-x-4">
-            <IconButton component="a" href="https://www.github.com" target="_blank" color="inherit">
+            <IconButton component="a" href="https://github.com/786asifakbar" target="_blank" color="inherit">
               <GithubIcon />
             </IconButton>
             <IconButton component="a" href="https://twitter.com" target="_blank" color="inherit">
