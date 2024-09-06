@@ -4,12 +4,14 @@ import About from "./About"
 import Projects from "./Projects"
 import Contact from "./Contact"
 import Skills from "./Skills"
+import Services from './Services';
+
 
 const HeroSection = () => {
   return (
     <>
       <div
-        className="flex flex-col md:flex-row items-center justify-between p-8 md:p-16 
+        className="flex flex-col md:flex-row items-center justify-between mt-10 p-8 md:p-16 
         bg-gradient-to-r from-gray-900 to-blue-900"
         data-aos="zoom-out"
         data-aos-delay="200"
@@ -23,14 +25,14 @@ const HeroSection = () => {
           <h1 className="text-8xl font-bold text-white">
             I am <br />{' '}
             <Typical
-              steps={['Asif Akbar', 3000, 'FrontEnd Developer', 6000]}
+              steps={['Asif Akbar', 5000, 'MERN_Stack Developer', 10000]}
               loop={Infinity}
               wrapper="span"
               className="text-blue-600"
             />
           </h1>
           <p className="text-2xl mt-5 mb-6 text-white">
-            Master the most in-demand technologies and <br />become a full-stack developer.
+            Master the most in-demand technologies and <br />become a MERN-Stack developer.
           </p>
           <div className="flex justify-center md:justify-start mt-5 space-x-4">
             <Button 
@@ -62,15 +64,16 @@ const HeroSection = () => {
         >
           {/* Main Image */}
           <img
-            src="../src/assets/hero.png" // Replace with your image source
+            src="../../public/enhancerImage.png" // Replace with your image source
             alt="Hero"
-            className="w-full rounded-lg"
+            className="w-96 float-end p-0 rounded-s-full"
           />
         </div>
       </div>
       
     <About />
     <Skills />
+    <Services/>
     <Projects />
     <Contact/>
     </>

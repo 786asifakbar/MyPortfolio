@@ -18,7 +18,7 @@ const About = () => {
           data-aos-delay="1200"
         >
           <img
-            src="../src/assets/about.png"
+            src="../../about.png"
             alt="Profile"
             className="rounded-full w-48 h-48 md:w-96 md:h-96 mb-6 md:mb-0 md:mr-6"
             data-aos="zoom-in"

@@ -18,11 +18,15 @@ const Navbar = () => {
   return (
     <>
       {/* Navbar */}
-      <AppBar position="static" className="bg-gradient-to-t from-gray-800 to-blue-900">
+      <AppBar position="fixed" className="">
         <Toolbar className="flex justify-between items-center">
           {/* Logo or Brand Name */}
           <Typography variant="h6" className="text-white">
-            <span className='text-3xl'>A</span>SIF<span className='text-3xl'>A</span>KBAR
+            <img 
+             src="../../public/blue.png"
+            alt='Logo'
+            className=''
+             />
           </Typography>
 
           {/* Hamburger Menu Button for mobile view */}
