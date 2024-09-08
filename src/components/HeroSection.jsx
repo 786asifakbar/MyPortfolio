@@ -22,7 +22,7 @@ const HeroSection = () => {
           data-aos="fade-right"
           data-aos-delay="1200"
         >
-          <h1 className="text-8xl font-bold text-white">
+          <h1 className="text-5xl font-bold text-white sm:text-3xl md:text-5xl lg:text-8xl">
             I am <br />{' '}
             <Typical
               steps={['Asif Akbar', 5000, 'MERN_Stack Developer', 10000]}
