@@ -62,12 +62,12 @@ const About = () => {
               </div>
             </div>
             <div className="mt-6" data-aos="fade-up">
-              <a href="../src/assets/Asif Akbar.pdf" download>
+              <a href="../..public/Asif Akbar.pdf" download>
                 <Button
                   variant="contained"
-                  color="warning"
+                  color="blue"
                   startIcon={<DownloadIcon />}
-                  className="text-white bg-blue-600 font-semibold"
+                  className="text-white font-semibold"
                 >
                   Download Resume
                 </Button>

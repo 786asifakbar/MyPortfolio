@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import AOS styles
+import { Button } from '@mui/material';
 
 const Contact = () => {
   useEffect(() => {
@@ -13,7 +14,7 @@ const Contact = () => {
       id="contact"
       className="py-10 bg-gradient-to-l from-blue-900 to-gray-900 text-white"
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
+      <div className="container h-screen mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
         {/* Get in Touch Section with Google Map */}
         <div className="lg:w-1/2 flex flex-col lg:flex-row items-center lg:items-start mb-8 lg:mb-0" data-aos="fade-up">
           <div className="w-full lg:w-1/2 mb-6 lg:mb-0">
@@ -70,13 +71,17 @@ const Contact = () => {
                 placeholder="Your Message"
               ></textarea>
             </div>
-            <button
+             
+
+            <Button
               type="submit"
-              className="bg-blue-600 text-white py-2 px-4 rounded-lg"
+              variant="contained"
+              color="blue"
+              className="text-white py-2 px-4 rounded-lg"
               data-aos="fade-up"
             >
               Send
-            </button>
+            </Button>
           </form>
         </div>
       </div>
