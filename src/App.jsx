@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 
 
 const App = () => {
-  
+
   useEffect(() => {
     AOS.init({
       duration: 1200,
@@ -23,9 +23,9 @@ const App = () => {
     });
   }, []);
 
-  
-  
-  
+
+
+
   return (
 <>     
       <Navbar />
