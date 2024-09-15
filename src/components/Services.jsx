@@ -70,7 +70,7 @@ const Services = () => {
               key={index}
               className="p-6 bg-blue-600 rounded-lg shadow-lg text-center hover:bg-blue-400 transition-colors duration-300"
               data-aos="zoom-in"
-              data-aos-delay={`${index * 400}`}
+              data-aos-delay={`${index * 500}`}
             >
               <div className="text-white mb-4">{service.icon}</div>
               <h3 className="text-3xl font-semibold mb-4">{service.title}</h3>
@@ -82,5 +82,4 @@ const Services = () => {
     </section>
   );
 };
-
 export default Services;

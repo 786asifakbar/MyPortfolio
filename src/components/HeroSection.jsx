@@ -64,7 +64,7 @@ const HeroSection = () => {
         >
           {/* Main Image */}
           <img
-            src="../../public/enhancerImage.png" // Replace with your image source
+            src="/enhancerImage.png" // Replace with your image source
             alt="Hero"
             className="w-96 float-end p-0 rounded-s-full"
           />

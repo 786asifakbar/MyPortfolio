@@ -9,7 +9,8 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-// import ParticlesBackground from './ParticlesBackground';
+
+
 const App = () => {
   
   useEffect(() => {
@@ -28,7 +29,6 @@ const App = () => {
   return (
 <>     
       <Navbar />
-      {/* <ParticlesBackground /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />

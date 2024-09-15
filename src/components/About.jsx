@@ -18,7 +18,7 @@ const About = () => {
           data-aos-delay="1200"
         >
           <img
-            src="../../about.png"
+            src="/about.png"
             alt="Profile"
             className="rounded-full w-48 h-48 md:w-96 md:h-96 mb-6 md:mb-0 md:mr-6"
             data-aos="zoom-in"
@@ -62,7 +62,7 @@ const About = () => {
               </div>
             </div>
             <div className="mt-6" data-aos="fade-up">
-              <a href="../..public/Asif Akbar.pdf" download>
+              <a href="/Asif Akbar.pdf" download>
                 <Button
                   variant="contained"
                   color="blue"

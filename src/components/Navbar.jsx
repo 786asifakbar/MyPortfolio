@@ -23,7 +23,7 @@ const Navbar = () => {
           {/* Logo or Brand Name */}
           <Typography variant="h6" className="text-white">
             <img 
-             src="../../public/blue.png"
+             src="/blue.PNG"
             alt='Logo'
             className=''
              />
